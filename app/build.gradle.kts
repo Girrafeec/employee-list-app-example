@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
 }
 
 android {
@@ -32,6 +33,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -57,5 +61,5 @@ dependencies {
 
     // Dagger
     implementation(Dependencies.Dagger.dagger)
-    implementation(Dependencies.Dagger.daggerCompiler)
+    kapt(Dependencies.Dagger.daggerCompiler)
 }
