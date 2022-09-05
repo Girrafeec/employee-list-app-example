@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "employee list app exmaple"
 include(":app")
+include(":core-domain-employee-list")
+include(":core-domain")
