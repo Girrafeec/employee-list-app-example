@@ -9,11 +9,11 @@
 |              2             |       App layer      |      2      | App component               |     10 min    |     8 min     |          30 min          |        22 min        | :heavy_check_mark:     |
 |                            |                      |      3      | DI                          |     10 min    |     8 min     |                          |                      | :heavy_check_mark:     |
 |                            |                      |      4      | App class                   |     10 min    |     6 min     |                          |                      | :heavy_check_mark:     |
-|              3             |     Domain layer     |      5      | Entities                    |     10 min    |     3 min     |    3 hours 10 minutes    |                      | :heavy_check_mark:     |
+|              3             |     Domain layer     |      5      | Entities                    |     10 min    |     3 min     |    3 hours 10 minutes    |    3 hours 39 min    | :heavy_check_mark:     |
 |                            |                      |      6      | Repositories                |     20 min    |     45 min    |                          |                      | :heavy_check_mark:     |
 |                            |                      |      7      | UseCases                    |     30 min    |     10 min    |                          |                      | :heavy_check_mark:     |
 |                            |                      |      8      | DI                          |     10 min    |     10 min    |                          |                      | :heavy_check_mark:     |
-|                            |                      |      9      | Unit-tests                  |    2 hours    |               |                          |                      |                        |
+|                            |                      |      9      | Unit-tests                  |    2 hours    |2 hours 29 min |                          |                      | :heavy_check_mark:     |
 |              4             |      Data layer      |      10     | Network module              |     20 min    |               |    5 hours 20 minutes    |                      |                        |
 |                            |                      |      11     | DTO                         |     10 min    |               |                          |                      |                        |
 |                            |                      |      12     | DTO converters              |     10 min    |               |                          |                      |                        |

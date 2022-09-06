@@ -1,15 +1,13 @@
-
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    id("kotlin-kapt")
 }
 
 android {
     compileSdk = 31
 
     defaultConfig {
-        //applicationId = "com.girrafeecstud.employeelistappexamplecoredomain"
+        //applicationId = "com.girrafeecstud.coredomainemployeelistentities"
         minSdk = 21
         targetSdk = 31
         //versionCode = 1
@@ -37,22 +35,4 @@ android {
 }
 
 dependencies {
-
-    // Dagger
-    implementation(Dependencies.Dagger.dagger)
-    kapt(Dependencies.Dagger.daggerCompiler)
-
-    // Coroutines
-    implementation(Dependencies.Coroutines.coroutines)
-
-    // Unit-tests
-    testImplementation(Dependencies.jUnit.jUnit)
-
-    // Mockito
-    testImplementation(Dependencies.Mockito.mockitoKotlin)
-    testImplementation(Dependencies.Mockito.mockitoInline)
-
-    implementation(project(":core-domain"))
-    implementation(project(":core-domain-employee-list-entities"))
-    implementation(project(":core-unit-tests-employee-list-sample-data"))
 }

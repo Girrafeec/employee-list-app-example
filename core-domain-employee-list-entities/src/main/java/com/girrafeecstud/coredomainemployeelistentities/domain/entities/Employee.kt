@@ -1,10 +1,10 @@
-package com.girrafeecstud.employeelistappexamplecoredomain.domain.entities
+package com.girrafeecstud.coredomainemployeelistentities.domain.entities
 
 data class Employee(
     val employeeId: String,
     val employeeAvatarUrl: String,
     val employeeFirstName: String,
-    val employeeSecondName: String,
+    val employeeLastName: String,
     val employeeUserTag: String,
     val employeeDepartmentName: String,
     val employeePosition: String,

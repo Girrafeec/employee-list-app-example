@@ -16,3 +16,5 @@ rootProject.name = "employee list app exmaple"
 include(":app")
 include(":core-domain-employee-list")
 include(":core-domain")
+include(":core-unit-tests-employee-list-sample-data")
+include(":core-domain-employee-list-entities")

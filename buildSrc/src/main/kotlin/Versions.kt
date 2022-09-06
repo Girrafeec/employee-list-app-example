@@ -33,4 +33,7 @@ object Versions {
     // UI-tests
     const val jUnitAndroidxExtVersion = "1.1.3"
     const val espressoCoreVersion = "3.4.0"
+
+    // Mockito
+    const val kotlinMockitoVersion = "4.0.0"
 }

@@ -52,4 +52,9 @@ class Dependencies {
     object Kaspresso {
 
     }
+
+    object Mockito {
+        const val mockitoKotlin = "org.mockito.kotlin:mockito-kotlin:${Versions.kotlinMockitoVersion}"
+        const val mockitoInline = "org.mockito:mockito-inline:${Versions.kotlinMockitoVersion}"
+    }
 }
